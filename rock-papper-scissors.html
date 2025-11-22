@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>son-rick-papper</title>
+    <link rel="stylesheet" href="rock-papper-scissor.css">
+</head>
+<link rel="stylesheet" href="stonepapperscissor.css">
+<body class="bo">
+    <p>rock papper scissor</p>
+    <div class="container"><div class="buton">
+<button id="rock"
+        onclick=" const randomnum = Math.random();
+        
+        let computermove = '';
+
+        if(randomnum >= 0 && randomnum < 1/3){
+            computermove = 'rock';
+        } else if (randomnum >= 1/3 && randomnum < 2/3){
+            computermove = 'papper'
+        }else if(randomnum >= 2/3 && randomnum <1){
+            computermove = 'scissor';
+        }
+
+        let result = '';
+
+        if ( computermove === 'rock'){
+            result = 'tie';
+        } else if (computermove === 'papper'){
+        result = 'you lose';
+        } else if (computermove === 'scissor'){
+            result = 'you win';
+        }
+        
+        alert(`you picked rock. computer picked ${computermove}. ${result}`);
+
+    ">rock  <img class="sc" src="rock.avif" alt=""></button>
+
+ <button id="papper"
+        onclick=" const randomnum = Math.random();
+
+        let computermove = '';
+
+        if(randomnum >= 0 && randomnum < 1/3){
+            computermove = 'rock';
+        } else if (randomnum >= 1/3 && randomnum < 2/3){
+        computermove = 'papper'
+        }else if(randomnum >= 2/3 && randomnum <1){
+        computermove = 'scissor';
+        }
+
+        let result = '';
+
+        if ( computermove === 'rock'){
+        result = 'you ${wa}';
+        } else if (computermove === 'papper'){
+        result = 'tie';
+        } else if (computermove === 'scissor'){
+        result = 'you lose';
+        }
+        
+        alert(`you picked papper. computer picked ${computermove}. ${result}`);"
+        >papper <img class="sc" src="papper.png" alt="papper"></button>
+
+<button id="scissor"
+    onclick=" const randomnum = Math.random();
+
+        let computermove = '';
+
+        if(randomnum >= 0 && randomnum < 1/3){
+            computermove = 'rock';
+        } else if (randomnum >= 1/3 && randomnum < 2/3){
+        computermove = 'papper'
+        }else if(randomnum >= 2/3 && randomnum <1){
+        computermove = 'scissor';
+        }
+
+        let result = '';
+
+        if ( computermove === 'rock'){
+        result = 'you lose';
+        } else if (computermove === 'papper'){
+        result = 'you win';
+        } else if (computermove === 'scissor'){
+        result = 'tie.';
+        }
+        
+        alert(`you picked scissor. computer picked ${computermove}. ${result}`);"
+    >scissor <img class="sc" src="scisso.png" alt="scissor"></button>
+    </div>
+
+    <script>  
+    </script>
+</body>
+</html>

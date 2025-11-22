@@ -1,0 +1,41 @@
+    .sc{
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        text-align: center;
+        background-color: rgb(218, 21, 21); 
+        display: block;
+        justify-content: center;
+        align-items: center;  
+        margin: auto; 
+
+
+    }
+    .
+    .bo{
+        background-color: rgb(18, 39, 40);
+    }
+    #rock{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 30%;
+        background-color: wheat;
+        color: brown;
+    }
+    #papper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 60%;
+        background-color: wheat;
+        color: brown;
+    }
+    #scissor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 90%;
+        background-color: wheat;
+        color: brown;
+    }
