@@ -1,27 +1,59 @@
-    .bo{
-        background-color: rgb(18, 39, 40);
-    }
-    #rock{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        left: 30%;
-        background-color: wheat;
-        color: brown;
-    }
-    #papper{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        left: 60%;
-        background-color: wheat;
-        color: brown;
-    }
-    #scissor{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        left: 90%;
-        background-color: rgb(7, 6, 3);
-        color: brown;
-    }
+.bo{
+    background-color: rgb(49, 130, 158);
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(28, 16, 16);
+    background-color: blueviolet;
+    border-radius: 30px;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+}
+#rock{
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px;
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+#papper{
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px;
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+    width: 65px;
+    height: 50px;
+}
+
+#scissor{
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px;
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+    width: 65px;
+    height: 50px;
+}
+.ro{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.pa{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.sc{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
