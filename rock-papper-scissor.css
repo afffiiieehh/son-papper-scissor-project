@@ -1,16 +1,27 @@
 .bo{
-    background-color: rgb(49, 130, 158);
+    background-color: rgb(6, 85, 111);
+}
+.container{
+    text-align: left;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
 }
 p{
-    text-align: center;
+    text-align: left;
     font-size: 30px;
-    color: rgb(28, 16, 16);
-    background-color: blueviolet;
+    color: rgb(216, 202, 202);
+    background-color: rgb(21, 12, 33);
     border-radius: 30px;
     width: 300px;
-    margin: auto;
+    margin: 0;
     padding: 5px;
+    font-style: italic;
+    text-align: center;
 }
+
 #rock{
     background-color: rgb(236, 236, 236);
     border-radius: 20px;
@@ -56,4 +67,46 @@ p{
     width: 100px;
     height: 100px;
     border-radius: 20px;
+}
+.buton{
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    gap: 50px;
+
+}
+#scissor:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: rgb(11, 67, 103);
+    color: white;
+}
+#papper:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: rgb(11, 67, 103);
+    color: white;
+}
+#papper:active{
+    transform: scale(0.9);
+    transition: 0.3s;
+    color: rgb(30, 10, 10);
+    background-color: rgb(255, 255, 255);
+}
+#rock:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: rgb(11, 67, 103);
+    color: white;
+}
+#rock:focus{
+    transform: scale(0.9);
+    transition: 0.3s;
+    color: red;
+    background-color: tomato;
 }
